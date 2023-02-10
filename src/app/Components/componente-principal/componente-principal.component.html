@@ -1,0 +1,31 @@
+<div class="form">
+    <div class="publicacion">
+        <label for="titulo">Título</label>
+        <!--falta ver cómo implementar el ngModel-->
+        <input type="text" id="titulo" [(ngModel)]="titulo">
+    </div>
+    <div class="publicacion">
+        <label for="img">Imagen (url de la foto)</label> 
+        <!--falta ver cómo implementar el ngModel-->
+        <input type="text" id="img" [(ngModel)]="img">
+    </div>
+    <div class="publicacion">
+        <label for="textoNoticia">Texto</label> 
+        <!--falta ver cómo implementar el ngModel-->
+        <textarea id="textoNoticia" [(ngModel)]="textoNoticia"></textarea>
+    </div>
+    <div class="publicacion">
+        <label for="fecha">Fecha de publicación</label> 
+        <!--falta ver cómo implementar el ngModel-->
+        <input type="date" id="fecha" [(ngModel)]="fecha">
+    </div>
+    <button class="bttn" (click)="publicar()">Publicar</button>
+
+    <!-- <p>{{titulo}} {{img}} {{textoNoticia}} {{fecha}}</p>-->
+</div>
+<hr>
+
+<section>
+    <h2>NOTICIAS</h2>
+    <ul [innerHTML]="noticiasPublicadas"></ul>
+</section>

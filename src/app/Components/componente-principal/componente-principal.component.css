@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    gap: 1rem;
+    width: 100%;
+    max-width: 200px;
+}
+
+.publicacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.bttn {
+   padding: 10px 15px;
+   width: 100%;
+   max-width: 100px;
+   border-radius: 5px;
+   border-color: #ccc;
+   background-color: #96afeb;
+   box-shadow: 2px 2px 2px #949292;
+   color: white;
+   font-weight: bold;
+}
