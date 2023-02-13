@@ -14,10 +14,7 @@ export class ComponentePrincipalComponent {
   fecha: string = "";
   arrNoticias: Noticia[] = [];
   noticiasPublicadas: string = "";
-  publiTitulo: string = "";
-  publiImg: string = "";
-  publiTextoNoticia: string = "";
-  publiFecha: string = "";
+  
 
   constructor() { 
     this.arrNoticias = new Array (
