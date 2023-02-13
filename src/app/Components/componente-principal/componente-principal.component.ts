@@ -29,9 +29,7 @@ export class ComponentePrincipalComponent {
 
   }
 
-
   publicar(): void {
-
     let noticia: Noticia = {
       titulo: this.titulo,
       img: this.img,
@@ -47,8 +45,6 @@ export class ComponentePrincipalComponent {
         this.cargarNoticia();
 
       }
-    
-
 
     console.log(this.arrNoticias);
 
@@ -58,17 +54,13 @@ export class ComponentePrincipalComponent {
     this.fecha = "";
   }
 
-
   cargarPublicacion(): void {
     this.noticiasPublicadas = "";
     this.publiTitulo = "";
     this.publiImg = "";
     this.publiTextoNoticia = "";
     this.publiFecha = "";
-
-    
   }
-
 
   cargarNoticia(): void {
     this.noticiasPublicadas = "";
@@ -80,9 +72,6 @@ export class ComponentePrincipalComponent {
         <p>${noticia.textoNoticia}</p>
         <p>${noticia.fecha}</p>
         </li>`;
-    });
-    
+    }); 
   }
-
-
 }
