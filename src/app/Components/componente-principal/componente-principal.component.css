@@ -65,8 +65,8 @@ textarea {
 }
 
 .publicacion {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    width: 70%;
 }
 
 .bttn {
@@ -85,19 +85,16 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 0;
-    margin: 0 50px;
 }
 
 .articulo {
-    width: calc(33.333% - 10px);
     padding: 20px 20px;
     margin: 0 auto;
     background-color: rgba(237, 148, 242, 0.093);
     border-radius: 8px;
     box-shadow: 5px 5px 5px #ccc;
     width: 100%;
-    max-width: 26rem;
+    max-width: 500px;
 }
 
 .listado {
@@ -119,7 +116,6 @@ textarea {
     gap: 5px; 
     padding: 1rem;
     margin: 1rem;
-    text-overflow: clip;
 }
 
 .tituloNoticia {
@@ -134,11 +130,8 @@ textarea {
 }
 
 .imagenNoticia {
-   width: 18rem;
-   height: 18rem;
+   width: 300px;
+   height: 300px;
    display: block;
    box-shadow: 5px 5px 5px #ccc;
-}
-
-@media (min-width: 768px) {
 }

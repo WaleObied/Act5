@@ -33,18 +33,18 @@
         <h2>NOTICIAS</h2>
         <section>
              <div class="caja">
-                <article *ngFor="let noticia of arrNoticias" class="articulo">
-                    <ul class="listado">
-                        <li class="items">
-                            <h1 class="tituloNoticia">{{noticia.titulo}}</h1>
-                            <figure class="container">
-                                <img  src="{{noticia.img}}" alt="Imagen de la noticia" class="imagenNoticia">
-                            </figure>
-                            <div class="fechaNoticia">{{noticia.fecha}}</div>
-                            <p class="textoNoticia">{{noticia.textoNoticia}}</p>
-                        </li>
-                    </ul>
-                </article>
+                    <article *ngFor="let noticia of arrNoticias" class="articulo">
+                        <ul class="listado">
+                            <li class="items">
+                                <h1 class="tituloNoticia">{{noticia.titulo}}</h1>
+                                <figure class="container">
+                                    <img  src="{{noticia.img}}" alt="Imagen de la noticia" class="imagenNoticia">
+                                </figure>
+                                <div class="fechaNoticia">{{noticia.fecha}}</div>
+                                <p class="textoNoticia">{{noticia.textoNoticia}}</p>
+                            </li>
+                        </ul>
+                    </article>
             </div>
         </section>
     </div>
