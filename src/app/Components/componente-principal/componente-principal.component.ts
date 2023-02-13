@@ -54,13 +54,6 @@ export class ComponentePrincipalComponent {
     this.fecha = "";
   }
 
-  cargarPublicacion(): void {
-    this.noticiasPublicadas = "";
-    this.publiTitulo = "";
-    this.publiImg = "";
-    this.publiTextoNoticia = "";
-    this.publiFecha = "";
-  }
 
   cargarNoticia(): void {
     this.noticiasPublicadas = "";
